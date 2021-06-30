@@ -10,7 +10,6 @@ const changeImage = (event) => {
     if (auto) {
         auto = !auto
         clearInterval(timerId)
-        
         setTimeout(() => autoChange(auto = true), 3000)
     }
     
